@@ -1,0 +1,16 @@
+.\output\ftm.o: ..\..\..\..\src\drivers\ftm\ftm.c
+.\output\ftm.o: ..\..\..\..\src\common\common.h
+.\output\ftm.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\ftm.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\ftm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\ftm.o: C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h
+.\output\ftm.o: C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h
+.\output\ftm.o: C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\output\ftm.o: C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\output\ftm.o: C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\output\ftm.o: C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h
+.\output\ftm.o: ..\..\..\..\src\common\assert.h
+.\output\ftm.o: ..\..\..\..\src\common\io.h
+.\output\ftm.o: ..\..\..\..\src\common\startup.h
+.\output\ftm.o: ..\..\..\..\src\common\stdlib.h
+.\output\ftm.o: ..\..\..\..\src\drivers\ftm\ftm.h

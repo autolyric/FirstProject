@@ -1,0 +1,679 @@
+Dependencies for Project 'Test', Target 'KE06Z-Flash': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\..\..\src\common\alloc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\alloc.o --omf_browse .\output\alloc.crf --depend .\output\alloc.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\common\assert.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\assert.o --omf_browse .\output\assert.crf --depend .\output\assert.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\common\io.c)(0x58D4D9BE)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\io.o --omf_browse .\output\io.crf --depend .\output\io.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\..\..\..\src\common\memtest.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\memtest.o --omf_browse .\output\memtest.crf --depend .\output\memtest.d)
+I (..\..\..\..\src\common\memtest.h)(0x53217EC8)
+F (..\..\..\..\src\common\queue.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\queue.o --omf_browse .\output\queue.crf --depend .\output\queue.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\common\queue.h)(0x53217EC8)
+F (..\..\..\..\src\common\stdlib.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\stdlib.o --omf_browse .\output\stdlib.crf --depend .\output\stdlib.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\arm_cm0.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\arm_cm0.o --omf_browse .\output\arm_cm0.crf --depend .\output\arm_cm0.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\start.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\start.o --omf_browse .\output\start.crf --depend .\output\start.d)
+I (..\..\..\..\src\cpu\start.h)(0x53217EC8)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\sysinit.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\sysinit.c)(0x58F01293)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\sysinit.o --omf_browse .\output\sysinit.crf --depend .\output\sysinit.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\sysinit.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ics\ics.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\systick.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\systick.o --omf_browse .\output\systick.crf --depend .\output\systick.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\systick.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\vectors.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\vectors.o --omf_browse .\output\vectors.crf --depend .\output\vectors.d)
+I (..\..\..\..\src\cpu\vectors.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\isr.h)(0x57256765)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (.\crto.s)(0x58D467ED)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include--pd "__UVISION_VERSION SETA 534" --pd "SKEAZ128xxx4 SETA 1"--list .\crto.lst --xref -o .\output\crto.o --depend .\output\crto.d)
+F (..\..\..\..\src\drivers\gpio\gpio.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\gpio.o --omf_browse .\output\gpio.crf --depend .\output\gpio.d)
+I (..\..\..\..\src\drivers\gpio\gpio.h)(0x58D4774A)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\uart\uart.c)(0x58D486FF)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\uart.o --omf_browse .\output\uart.crf --depend .\output\uart.d)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\wdog\wdog.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\wdog.o --omf_browse .\output\wdog.crf --depend .\output\wdog.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\sim\sim.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\sim.o --omf_browse .\output\sim.crf --depend .\output\sim.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\rtc\rtc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\rtc.o --omf_browse .\output\rtc.crf --depend .\output\rtc.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\rtc\rtc.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\ics\ics.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\ics.o --omf_browse .\output\ics.crf --depend .\output\ics.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ics\ics.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\acmp\acmp.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\acmp.o --omf_browse .\output\acmp.crf --depend .\output\acmp.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\acmp\acmp.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\adc\adc.c)(0x58D4740B)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\adc.o --omf_browse .\output\adc.crf --depend .\output\adc.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\adc\adc.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\can\mscan.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\mscan.o --omf_browse .\output\mscan.crf --depend .\output\mscan.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\can\mscan.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\crc\crc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\crc.o --omf_browse .\output\crc.crf --depend .\output\crc.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\crc\crc.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\ftm\ftm.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\ftm.o --omf_browse .\output\ftm.crf --depend .\output\ftm.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ftm\ftm.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\iic\i2c.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\i2c.o --omf_browse .\output\i2c.crf --depend .\output\i2c.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\iic\i2c.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\kbi\kbi.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\kbi.o --omf_browse .\output\kbi.crf --depend .\output\kbi.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\kbi\kbi.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\nvm\flash.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\flash.o --omf_browse .\output\flash.crf --depend .\output\flash.d)
+I (..\..\..\..\src\drivers\nvm\flash.h)(0x53217EC8)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\pit\pit.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\pit.o --omf_browse .\output\pit.crf --depend .\output\pit.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\pit\pit.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\PMC\pmc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\pmc.o --omf_browse .\output\pmc.crf --depend .\output\pmc.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\PMC\pmc.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\pwt\pwt.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\pwt.o --omf_browse .\output\pwt.crf --depend .\output\pwt.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\pwt\pwt.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\spi\spi.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\spi.o --omf_browse .\output\spi.crf --depend .\output\spi.d)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\spi\spi.h)(0x53217EC8)
+F (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)()
+F (..\..\..\..\src\projects\KE06\Test\Test.c)(0x59019BA3)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\test.o --omf_browse .\output\test.crf --depend .\output\test.d)
+I (..\..\..\..\src\cpu\headers\derivative.h)(0x5725693B)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\projects\KE06\Test\Input.h)(0x58FD4BBF)
+I (..\..\..\..\src\drivers\adc\adc.h)(0x53217EC8)
+I (..\..\..\..\src\projects\KE06\Test\tick.h)(0x58F1BC8B)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\gpio\gpio.h)(0x58D4774A)
+I (..\..\..\..\src\projects\KE06\Test\system.h)(0x58F9BD1D)
+I (..\..\..\..\src\drivers\pit\pit.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ics\ics.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\iic\i2c.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\spi\spi.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ftm\ftm.h)(0x53217EC8)
+I (..\..\..\..\src\projects\KE06\Test\LIN_Slave.h)(0x58FD8477)
+I (..\..\..\..\src\projects\KE06\Test\MotorCtrl.h)(0x58FEF6B5)
+I (..\..\..\..\src\projects\KE06\Test\Output.h)(0x58F9C6EB)
+I (..\..\..\..\src\projects\KE06\Test\DisplayLCD.h)(0x58FEE8F9)
+F (..\..\..\..\src\projects\KE06\Test\isr.h)(0x57256765)()
+F (..\..\..\..\src\projects\KE06\Test\app\DisplayLCD.c)(0x590142C2)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\displaylcd.o --omf_browse .\output\displaylcd.crf --depend .\output\displaylcd.d)
+I (..\..\..\..\src\projects\ke06\Test\DisplayLCD.h)(0x58FEE8F9)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\projects\KE06\Test\app\Input.c)(0x58FF08E2)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\input.o --omf_browse .\output\input.crf --depend .\output\input.d)
+I (..\..\..\..\src\projects\ke06\Test\Input.h)(0x58FD4BBF)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\adc\adc.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\tick.h)(0x58F1BC8B)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\gpio\gpio.h)(0x58D4774A)
+I (..\..\..\..\src\projects\ke06\Test\system.h)(0x58F9BD1D)
+I (..\..\..\..\src\drivers\pit\pit.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ics\ics.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\iic\i2c.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\spi\spi.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ftm\ftm.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\LIN_Slave.h)(0x58FD8477)
+I (..\..\..\..\src\projects\ke06\Test\MotorCtrl.h)(0x58FEF6B5)
+F (..\..\..\..\src\projects\KE06\Test\app\LIN_Slave.c)(0x5901824B)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\lin_slave.o --omf_browse .\output\lin_slave.crf --depend .\output\lin_slave.d)
+I (..\..\..\..\src\projects\ke06\Test\LIN_Slave.h)(0x58FD8477)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\Tick.h)(0x58F1BC8B)
+F (..\..\..\..\src\projects\KE06\Test\app\MotorCtrl.c)(0x590047E3)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\motorctrl.o --omf_browse .\output\motorctrl.crf --depend .\output\motorctrl.d)
+I (..\..\..\..\src\projects\ke06\Test\MotorCtrl.h)(0x58FEF6B5)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\Input.h)(0x58FD4BBF)
+I (..\..\..\..\src\drivers\adc\adc.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\tick.h)(0x58F1BC8B)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\gpio\gpio.h)(0x58D4774A)
+I (..\..\..\..\src\projects\ke06\Test\system.h)(0x58F9BD1D)
+I (..\..\..\..\src\drivers\pit\pit.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ics\ics.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\iic\i2c.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\spi\spi.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ftm\ftm.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\LIN_Slave.h)(0x58FD8477)
+F (..\..\..\..\src\projects\KE06\Test\app\Output.c)(0x5900866E)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\output.o --omf_browse .\output\output.crf --depend .\output\output.d)
+I (..\..\..\..\src\projects\ke06\Test\output.h)(0x58F9C6EB)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\tick.h)(0x58F1BC8B)
+I (..\..\..\..\src\drivers\iic\i2c.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\spi\spi.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+F (..\..\..\..\src\projects\KE06\Test\app\Pca85162T.c)(0x58F17383)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\pca85162t.o --omf_browse .\output\pca85162t.crf --depend .\output\pca85162t.d)
+I (..\..\..\..\src\projects\ke06\Test\Pca85162T.h)(0x58F1BC8B)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\tick.h)(0x58F1BC8B)
+F (..\..\..\..\src\projects\KE06\Test\app\System.c)(0x59019BA3)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\system.o --omf_browse .\output\system.crf --depend .\output\system.d)
+I (..\..\..\..\src\projects\ke06\Test\System.h)(0x58F9BD1D)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\pit\pit.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ics\ics.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\gpio\gpio.h)(0x58D4774A)
+I (..\..\..\..\src\drivers\adc\adc.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\iic\i2c.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\Tick.h)(0x58F1BC8B)
+I (..\..\..\..\src\drivers\spi\spi.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ftm\ftm.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\Test\input.h)(0x58FD4BBF)
+I (..\..\..\..\src\projects\ke06\Test\LIN_Slave.h)(0x58FD8477)
+I (..\..\..\..\src\projects\ke06\Test\MotorCtrl.h)(0x58FEF6B5)
+F (..\..\..\..\src\projects\KE06\Test\app\Tick.c)(0x58EF860B)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\src\projects\ke06\Test -I ..\..\..\..\src\common -I ..\..\..\..\src\cpu -I ..\..\..\..\src\cpu\headers -I ..\..\..\..\src\drivers\uart -I ..\..\..\..\src\drivers\acmp -I ..\..\..\..\src\platforms -I ..\.. -I ..\..\..\..\src\drivers\ics -I ..\..\..\..\src\drivers\rtc -I ..\..\..\..\src\drivers\wdog -I ..\..\..\..\src\drivers\ftm -I ..\..\..\..\src\drivers\nvm -I ..\..\..\..\src\drivers\sim -I ..\..\..\..\src\drivers\spi -I ..\..\..\..\src\drivers\kbi -I ..\..\..\..\src\drivers\gpio -I ..\..\..\..\src\drivers\crc -I ..\..\..\..\src\drivers\bme -I ..\..\..\..\src\drivers\iic -I ..\..\..\..\src\drivers\pit -I ..\..\..\..\src\drivers\PMC -I ..\..\..\..\src\drivers\adc -I ..\..\..\..\src\drivers\pwt -I ..\..\..\..\src\drivers\bitband -I C:\Keil_v5\ARM\ARMCC\include -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -I C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Include-IC:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="534" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\tick.o --omf_browse .\output\tick.crf --depend .\output\tick.d)
+I (..\..\..\..\src\projects\ke06\Test\Tick.h)(0x58F1BC8B)
+I (..\..\..\..\src\common\common.h)(0x58D36684)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x59019BA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\SKEAZ1284.h)(0x585B7C0A)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (C:\Users\Administrator.USER-20190222AX\AppData\Local\Arm\Packs\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include\system_SKEAZ1284.h)(0x5754CC5A)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
