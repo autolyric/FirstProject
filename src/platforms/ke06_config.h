@@ -187,9 +187,9 @@
      * then it will use FEI mode which is default mode 
      * after reset.  
      */
-    //#define USE_FEE                         /*!< use FEE clock mode */	
+    #define USE_FEE                         /*!< use FEE clock mode */	
     //#define USE_FEE_OSC                   /*!< use FEE clock mode with external active oscillator */
-    #define USE_FEI                       /*!< use FEI clock mode */
+    //#define USE_FEI                       /*!< use FEI clock mode */
 
     /*! define external crystal frequency. */
     //#define EXT_CLK_FREQ_KHZ	32          /* in KHz */

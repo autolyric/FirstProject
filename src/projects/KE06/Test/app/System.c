@@ -3,9 +3,18 @@
 
 
 MoudleStat_T  Moudle_Stat={MOUDLE_AWAKE,MOUDLE_POWER_NORMAL,MOUDLE_OFF};
-
-
 volatile uint8_t send_byte=0;
+
+
+FrameBufferInfoType	 sCAN_TxBuff;
+MSCAN_RegisterFrameType sCAN_TxMsg;
+MSCAN_FrameType  				CAN_Rx_Msg;
+MSCAN_FrameType      sRxFrame[CAN_BUFFER_LENGTH];
+uint8_t u8RxFrameBufferIndex;
+uint8_t u8RxFrameHeader;
+uint8_t u8RxFrameBufferFreeLength;
+uint32_t u32RxInterruptCounter=0;
+
 
 void PIT1_Task(void)
 {
@@ -60,7 +69,7 @@ void I2C0_Task(void)
     	else
     	{
     		I2C_Stop(I2C0);
-        	I2C_IntDisable(I2C0);
+        I2C_IntDisable(I2C0);
     	}
     	//LED2_Toggle();
         //I2C_MasterIntProcessing(I2C0);
@@ -314,13 +323,133 @@ void System_GpioInit(void)
 	
 }
 
+
+void MSCAN_RxProcessing(void)
+{
+		if(CAN_IsRxBuffFull(MSCAN))
+		{
+				//Mytask();
+				CAN_ReadOneFrameFromBuff(MSCAN,&CAN_Rx_Msg);
+				if(u8RxFrameBufferFreeLength!=0)
+				{
+						CAN_ReadOneFrameFromBuff(MSCAN,&sRxFrame[u8RxFrameBufferIndex++]);	
+						if(u8RxFrameBufferIndex>=CAN_BUFFER_LENGTH)
+						{
+							u8RxFrameBufferIndex = 0;
+						}
+						
+						u8RxFrameBufferFreeLength--;
+				}
+				else
+				{
+						CAN_ClearRXF_Flag(MSCAN);
+				}
+		}
+}
+void MSCAN_TxProcessing(void)
+{
+	if(CAN_IsOverRunFlag(MSCAN))
+	{
+		// overrunn error occur
+		CAN_ClearOVRIF_Flag(MSCAN);
+	}
+	if(CAN_IsWakeUpIntFlag(MSCAN))
+	{
+		CAN_ClearWUPIF_Flag(MSCAN);
+	// user processing
+	}
+	if(CAN_IsStatusChangeFlag(MSCAN))
+	{
+		CAN_ClearCSCIF_Flag(MSCAN);
+		// Get currently status
+		CAN_GetReceiverStatus(MSCAN);
+		CAN_GetReceiveErrorCount(MSCAN);
+		// user processing
+	}
+}
+
+
+void MSCAN_GlobeVaribleInit( MSCAN_Type *pCANx )
+{
+		uint8_t Msg_Data[8]={0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF};
+    sCAN_TxBuff.u8FreeLength = CAN_BUFFER_LENGTH;
+    sCAN_TxBuff.u8Index = 0;
+    sCAN_TxBuff.u8Head = 0; 
+    u8RxFrameBufferFreeLength = CAN_BUFFER_LENGTH;
+    u8RxFrameBufferIndex = 0;
+    u8RxFrameHeader = 0;
+    MSCAN_SetRxCallBack(MSCAN_RxProcessing);
+    MSCAN_SetTxCallBack(MSCAN_TxProcessing);
+	
+		sCAN_TxMsg.BPR=0x01;
+		sCAN_TxMsg.DLR=0x08;
+		
+		sCAN_TxMsg.EDSR[0] = Msg_Data[0];
+		sCAN_TxMsg.EDSR[1] = Msg_Data[1];
+		sCAN_TxMsg.EDSR[2] = Msg_Data[2];
+		sCAN_TxMsg.EDSR[3] = Msg_Data[3];
+		sCAN_TxMsg.EDSR[4] = Msg_Data[4];
+		sCAN_TxMsg.EDSR[5] = Msg_Data[5];
+		sCAN_TxMsg.EDSR[6] = Msg_Data[6];
+		sCAN_TxMsg.EDSR[7] = Msg_Data[7];
+		
+		sCAN_TxMsg.EIDR0=0x01;
+		sCAN_TxMsg.EIDR1=0x02;
+		sCAN_TxMsg.EIDR2=0x03;
+		sCAN_TxMsg.EIDR3=0x04;
+		
+}
+
+void TestCAN_SendCycle()
+{
+	static uint16 cycle_time=FOREMOST_TIME;
+	if(Get2MsTickInterval(cycle_time)>=10)
+	{
+		cycle_time=Get2MsTickVal();
+		sCAN_TxMsg.EDSR[0]=CAN_Rx_Msg.DSR[0];
+		sCAN_TxMsg.EDSR[1]=CAN_Rx_Msg.DSR[1];
+		sCAN_TxMsg.EDSR[2]=CAN_Rx_Msg.DSR[2];
+		sCAN_TxMsg.EDSR[3]=CAN_Rx_Msg.DSR[3];
+		sCAN_TxMsg.EDSR[4]=CAN_Rx_Msg.DSR[4];
+		sCAN_TxMsg.EDSR[5]=CAN_Rx_Msg.DSR[5];
+		sCAN_TxMsg.EDSR[6]=CAN_Rx_Msg.DSR[6];
+		sCAN_TxMsg.EDSR[7]=CAN_Rx_Msg.DSR[7];
+		CAN_LoadOneFrameToBuff(MSCAN,&sCAN_TxMsg);       
+	}
+}
+
+void System_CanInit(void)
+{
+    MSCAN_ConfigType sMSCANConfig = {0};  
+    MSCAN_GlobeVaribleInit(MSCAN);
+    SIM->PINSEL1 &=~ 0;//&=~ CAN_RX on TH2; |= CAN_TX on PTE7,
+    sMSCANConfig.sBaudRateSetting.SJW = 3; //SJW=0
+    sMSCANConfig.sBaudRateSetting.BRP = 3; //1 500K  3 250K
+    sMSCANConfig.sBaudRateSetting.SAMP = BAUD_RATE_SAMP; // 0
+    sMSCANConfig.sBaudRateSetting.TSEG1= 14;  // 4
+    sMSCANConfig.sBaudRateSetting.TSEG2= 3;  //3
+    sMSCANConfig.u32IDAR0 = (CAN_IDAR0);  //CANIDAR0-3
+    sMSCANConfig.u32IDAR1 = (CAN_IDAR1);  //CANIDAR4-7
+    sMSCANConfig.u32IDMR0 = (CAN_IDMR0);  //CANIDMR0-3
+    sMSCANConfig.u32IDMR1 = (CAN_IDMR1);  //CANIDMR4-7
+    sMSCANConfig.u8IDARMode = 0x00;//ID_ACCEPT_MODE_TWO32;//ID_ACCEPT_MODE_EIGHT8; // 2 32BIT filters  ID_ACCEPT_MODE_EIGHT8;//= 
+    sMSCANConfig.sSetting.bCanEn = 1;      // CAN module enable
+    sMSCANConfig.sSetting.bCLKSRC = 1;  // clock source is bus clock:20Mhz 0:external 8Mhz
+    sMSCANConfig.sSetting.bRxFullIEn=1;  //receive full interrupt request enable
+    sMSCANConfig.sSetting.bTimerEn=1;   // enable internal MSCAN timer
+    sMSCANConfig.sSetting.bOverRunIEn=1; //overrun interrup enable
+    sMSCANConfig.sSetting.bStatusChangeIEn=1; // Can status change interrupt enable
+    sMSCANConfig.sSetting.bBusOffUser=1;  //Bus off recovery mode// 1 - user, 0 - Auto
+    CAN_Init(MSCAN,&sMSCANConfig); 
+}
+
 void System_Init(void)
 {	
-	GPIO_PinInit(GPIO_PTB2,GPIO_PinOutput);
-	GPIO_PinSet(GPIO_PTB2);
-
-	GPIO_PinInit(GPIO_PTB3,GPIO_PinOutput);
-	GPIO_PinClear(GPIO_PTB3);
+	GPIO_PinInit(GPIO_PTH0,GPIO_PinOutput);
+	GPIO_PinSet(GPIO_PTH0);
+	
+	GPIO_PinInit(GPIO_PTB4,GPIO_PinOutput);
+	GPIO_PinClear(GPIO_PTB4);
 	
 	Platform_Init();
 	System_GpioInit();
@@ -328,8 +457,9 @@ void System_Init(void)
 	System_UartInit();
 	System_AdcInit();
 	System_I2cInit();
-	System_SpiInit();
+	//System_SpiInit();
 	System_PwmInit();
+	System_CanInit();
 	
 	TickInit();
 }

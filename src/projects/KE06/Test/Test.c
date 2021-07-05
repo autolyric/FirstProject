@@ -31,31 +31,42 @@ void delay()
 	while(delay--);
 }
 
+
+void TestLED_Toggle(void)
+{
+	static uint16 cycle_time=FOREMOST_TIME;
+	if(Get2MsTickInterval(cycle_time)>=1000)
+	{
+		cycle_time=Get2MsTickVal();
+		GPIO_PinToggle(GPIO_PTH0);         
+	}
+}
+
 int main(void)
 {
 	LED0_Init();
 	LED1_Init();
-	
 	LED2_Init();
 	
 	System_Init();
-	Input_Init();
-	OutputCtrl_Init();
-	Motor_Ctrl_Init();
-	Lin_Slave_Init();
-	Lcd_Display_Init();
+	//Input_Init();
+	//OutputCtrl_Init();
+	//Motor_Ctrl_Init();
+	//Lin_Slave_Init();
+	//Lcd_Display_Init();
 	while(1)  
 	{
-		Task_Dg_Scan();
-		Task_Ad_Scan();
-		Task_Dg_Ctrl();
-		Task_Fan_Ctrl();
-		Task_Motor_Ctrl();
-		Task_LIN_Slave();
-		Task_Lcd_Display();
-		Task_Power_Manage();
-		LED2_Toggle();
-
+		//Task_Dg_Scan();
+		//Task_Ad_Scan();
+		//Task_Dg_Ctrl();
+		//Task_Fan_Ctrl();
+		//Task_Motor_Ctrl();
+		//Task_LIN_Slave();
+		//Task_Lcd_Display();
+		//Task_Power_Manage();
+		//LED2_Toggle();
+		TestLED_Toggle();
+		TestCAN_SendCycle();
 	}	
 }
 

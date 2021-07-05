@@ -27,6 +27,12 @@
 #undef  VECTOR_026 
 #define VECTOR_026 SPI0_Isr
 
+#undef  VECTOR_046
+#define VECTOR_046 MSCAN_RxIsr          /*!< Vector 36 points to RTC interrupt service routine */ 
+
+#undef  VECTOR_047
+#define VECTOR_047 MSCAN_TxIsr          /*!< Vector 36 points to RTC interrupt service routine */ 
+
 
 extern void PIT_Ch1Isr(void);
 extern void PIT_Ch0Isr(void);
@@ -34,6 +40,8 @@ extern void UART0_Isr(void);
 extern void ADC_Isr(void);
 extern void I2C0_Isr(void);
 extern void SPI0_Isr(void);
+extern void MSCAN_RxIsr(void);
+extern void MSCAN_TxIsr(void);
 
 
 
