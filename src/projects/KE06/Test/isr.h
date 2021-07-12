@@ -15,18 +15,6 @@
 #undef  VECTOR_039 
 #define VECTOR_039 PIT_Ch1Isr   /*!< Vector 39 points to PIT channel 1 interrupt service routine */
 
-#undef  VECTOR_028
-#define VECTOR_028 UART0_Isr
-
-#undef  VECTOR_031
-#define VECTOR_031 ADC_Isr
-
-#undef  VECTOR_024 
-#define VECTOR_024 I2C0_Isr
-
-#undef  VECTOR_026 
-#define VECTOR_026 SPI0_Isr
-
 #undef  VECTOR_046
 #define VECTOR_046 MSCAN_RxIsr          /*!< Vector 36 points to RTC interrupt service routine */ 
 
@@ -36,13 +24,8 @@
 
 extern void PIT_Ch1Isr(void);
 extern void PIT_Ch0Isr(void);
-extern void UART0_Isr(void);
-extern void ADC_Isr(void);
-extern void I2C0_Isr(void);
-extern void SPI0_Isr(void);
 extern void MSCAN_RxIsr(void);
 extern void MSCAN_TxIsr(void);
-
 
 
 extern void RTC_Isr(void);

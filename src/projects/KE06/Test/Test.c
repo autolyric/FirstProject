@@ -10,26 +10,11 @@
 
 #include "derivative.h" /* include peripheral declarations */
 #include "common.h"
-
-
-#include "Input.h" 
-#include "Output.h"
-#include "DisplayLCD.h"
-#include "LIN_Slave.h"
-#include "MotorCtrl.h"
 #include "System.h"
 
 
 
 const int const_data __attribute__((at(0x00001000))) = 10; 
-
-
-
-void delay()
-{
-	unsigned int delay=0x8FFFF;
-	while(delay--);
-}
 
 
 void TestLED_Toggle(void)
@@ -49,22 +34,8 @@ int main(void)
 	LED2_Init();
 	
 	System_Init();
-	//Input_Init();
-	//OutputCtrl_Init();
-	//Motor_Ctrl_Init();
-	//Lin_Slave_Init();
-	//Lcd_Display_Init();
 	while(1)  
 	{
-		//Task_Dg_Scan();
-		//Task_Ad_Scan();
-		//Task_Dg_Ctrl();
-		//Task_Fan_Ctrl();
-		//Task_Motor_Ctrl();
-		//Task_LIN_Slave();
-		//Task_Lcd_Display();
-		//Task_Power_Manage();
-		//LED2_Toggle();
 		TestLED_Toggle();
 		TestCAN_SendCycle();
 	}	
