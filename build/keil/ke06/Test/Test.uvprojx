@@ -577,36 +577,6 @@
           <GroupName>App</GroupName>
           <Files>
             <File>
-              <FileName>DisplayLCD.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\src\projects\KE06\Test\app\DisplayLCD.c</FilePath>
-            </File>
-            <File>
-              <FileName>Input.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\src\projects\KE06\Test\app\Input.c</FilePath>
-            </File>
-            <File>
-              <FileName>LIN_Slave.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\src\projects\KE06\Test\app\LIN_Slave.c</FilePath>
-            </File>
-            <File>
-              <FileName>MotorCtrl.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\src\projects\KE06\Test\app\MotorCtrl.c</FilePath>
-            </File>
-            <File>
-              <FileName>Output.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\src\projects\KE06\Test\app\Output.c</FilePath>
-            </File>
-            <File>
-              <FileName>Pca85162T.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\src\projects\KE06\Test\app\Pca85162T.c</FilePath>
-            </File>
-            <File>
               <FileName>System.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\src\projects\KE06\Test\app\System.c</FilePath>

@@ -1,6 +1,0 @@
--c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\src\projects\ke06\Test -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -IC:\Keil_v5\ARM\ARMCC\include -IC:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include
--I E:\13-华晨F70后空调控制器\kexx_drv_lib\build\keil\ke06\Test\RTE
--I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.2.0\Device\Include
--I C:\Keil_v5\ARM\CMSIS\Include
--D__UVISION_VERSION="514" -DSKEAZ128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS
--o .\output\queue.o --omf_browse .\output\queue.crf --depend .\output\queue.d --feedback ".\output\Test_Flash.fed" "..\..\..\..\src\common\queue.c"
